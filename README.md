@@ -80,7 +80,7 @@ run('MIMO_OFDM_Simulation.m');
 3. **Constellation Diagram (Post-MMSE Equalization)**  
    Shows QPSK symbols converging to ideal points and confirms the accuracy of channel estimation and equalization.  
 
-   ![QPSK Constellation](constellation.png)
+   ![QPSK Constellation](.png)
 
 ---
 
