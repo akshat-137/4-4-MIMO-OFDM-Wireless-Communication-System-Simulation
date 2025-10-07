@@ -77,11 +77,6 @@ run('MIMO_OFDM_Simulation.m');
 
    ![Average Capacity vs SNR](SNRvsAvgCapacity.png)
 
-3. **Constellation Diagram (Post-MMSE Equalization)**  
-   Shows QPSK symbols converging to ideal points and confirms the accuracy of channel estimation and equalization.  
-
-   ![QPSK Constellation](.png)
-
 ---
 
 ## Sample Results
