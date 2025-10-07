@@ -65,6 +65,25 @@ run('MIMO_OFDM_Simulation.m');
 
 ---
 
+## Plots & Visualizations
+
+1. **BER vs SNR**  
+   Shows how BER decreases with increasing SNR and confirms the MMSE equalizer effectively mitigates channel noise.  
+
+   ![BER vs SNR](SNRvsBER.png)
+
+2. **Average Capacity vs SNR**  
+   Demonstrates logarithmic growth of system capacity and highlights the spatial multiplexing gain of a 4×4 MIMO system.  
+
+   ![Average Capacity vs SNR](SNRvsAvgCapacity.png)
+
+3. **Constellation Diagram (Post-MMSE Equalization)**  
+   Shows QPSK symbols converging to ideal points and confirms the accuracy of channel estimation and equalization.  
+
+   ![QPSK Constellation](constellation.png)
+
+---
+
 ## Sample Results
 
 | SNR (dB) | BER       | Avg. Capacity (bits/sec/Hz) |
